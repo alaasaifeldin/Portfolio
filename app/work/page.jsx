@@ -18,6 +18,22 @@ const projects = [
   {
     num: "01",
     category: "Frontend",
+    Title: "Nike",
+    description: "Developed a project for Nike website",
+    stack: [
+      { name: "Html5" },
+      { name: "Css3" },
+      {name:"Tailwindcss"},
+      { name: "Javascript" },
+      { name: "React.js" },
+    ],
+    image: "/assets/work/Nike.PNG",
+    live: "https://nike-eight-weld.vercel.app/",
+    github: "https://github.com/MahmoudGado1/Nike",
+  },
+  {
+    num: "02",
+    category: "Frontend",
     Title: "Skin Cancer",
     description: "Developed a project for detect Skin Cancer  ",
     stack: [
@@ -31,7 +47,7 @@ const projects = [
     github: "https://github.com/MahmoudGado1/Skin-Cancer",
   },
   {
-    num: "02",
+    num: "03",
     category: "Frontend",
     Title: "Food Order",
     description: "Developed a project for order food",
@@ -47,7 +63,7 @@ const projects = [
     github: "https://github.com/MahmoudGado1/Food-Order-AddToChart",
   },
   {
-    num: "03",
+    num: "04",
     category: "Frontend",
     Title: "Todo List",
     description: "Todo List for add tasks",
@@ -62,7 +78,7 @@ const projects = [
     github: "https://github.com/MahmoudGado1/To-Do-List-APP",
   },
   {
-    num: "04",
+    num: "05",
     category: "Full Stack",
     Title: "E-commerce Platform",
     description: "Developed a full-featured e-commerce platform.",
@@ -81,7 +97,7 @@ const projects = [
     github: "",
   },
   {
-    num: "05",
+    num: "06",
     category: "Full Stack",
     Title: "Hospital Management System",
     description: "Developed a hospital system for manage tasks.",
