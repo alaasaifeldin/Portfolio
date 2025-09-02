@@ -58,7 +58,7 @@ const Photo = () => {
             priority
             quality={100}
             fill
-            className="object-cover scale-110" // زودنا زووم للصورة
+            className="object-cover scale-110" 
             draggable="false"
           />
         </motion.div>
