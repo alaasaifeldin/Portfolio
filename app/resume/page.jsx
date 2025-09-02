@@ -22,15 +22,15 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 const about = {
   title: "About Me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nam, qui in voluptas aut aliquam.",
+    "Motivated and detail-oriented Junior DevOps Engineer with hands-on experience in Linux systems, Docker, Ansible, and foundational networking knowledge (CCNA). Passionate about infrastructure automation, CI/CD practices, and cloud-native tools.",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Mahmoud Gado",
+      fieldValue: "Alaa Sherif Abdelhamid",
     },
     {
-      fieldName: "Age",
-      fieldValue: "21",
+      fieldName: "Role",
+      fieldValue: "DevOps Engineer",
     },
     {
       fieldName: "Nationality",
@@ -42,15 +42,15 @@ const about = {
     },
     {
       fieldName: "Phone",
-      fieldValue: "+201069220635",
+      fieldValue: "+201125098250",
     },
     {
       fieldName: "Email",
-      fieldValue: "mahmoudgado444@gmail.com",
+      fieldValue: "alaasherifsaifeldin@gmail.com",
     },
     {
       fieldName: "Address",
-      fieldValue: "Cairo, Egypt",
+      fieldValue: "Alexandria, Egypt",
     },
   ],
 };
@@ -59,12 +59,27 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nam, qui in voluptas aut aliquam.",
+    "Practical projects and training experience in DevOps, automation, and networking.",
   items: [
     {
-      position: "Frontend Developer Intern",
-      company: "SEF",
-      duration: "Summer 2024",
+      position: "Containerized Web App with Docker",
+      company: "Personal Project",
+      duration: "06/2025",
+    },
+    {
+      position: "Linux Automation with Ansible",
+      company: "Personal Project",
+      duration: "05/2025",
+    },
+    {
+      position: "Network Simulation – CCNA Level",
+      company: "Cisco Packet Tracer",
+      duration: "11/2022",
+    },
+    {
+      position: "Python File Organizer Script",
+      company: "Personal Project",
+      duration: "10/2021",
     },
   ],
 };
@@ -73,22 +88,32 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nam, qui in voluptas aut aliquam.",
+    "Academic studies and certifications in computing, networking, and DevOps.",
   items: [
     {
-      institution: "The Egyptian E-learning University (EELU)",
-      degree: "Bachelor of Information Technology.",
+      institution: "Alexandria University",
+      degree: "B.Sc. in Computing and Data Science",
       duration: "2021 - 2025",
     },
     {
-      institution: "SEF",
-      degree: "Front-end web development Diploma.",
-      duration: "4 months",
+      institution: "Cisco",
+      degree: "CCNA – Cisco Certified Network Associate",
+      duration: "2023",
     },
     {
-      institution: "SEF",
-      degree: "Back-end web development Diploma (Node.Js).",
-      duration: "3 months",
+      institution: "Udemy",
+      degree: "Python Programming & OOP Certificate",
+      duration: "2024",
+    },
+    {
+      institution: "Cisco",
+      degree: "Network Essentials",
+      duration: "2022",
+    },
+    {
+      institution: "Pearson",
+      degree: "IT Management Certificate",
+      duration: "2024",
     },
   ],
 };

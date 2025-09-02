@@ -3,32 +3,38 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowDownRight } from "react-icons/bs";
+
 const services = [
   {
     num: "01",
-    title: "Frontend Development",
-    description: "Creating interactive and user-friendly interfaces using modern web technologies.",
+    title: "Infrastructure Automation",
+    description:
+      "Automating server provisioning, configuration, and deployments using Ansible, Bash scripting, and Infrastructure as Code principles.",
     href: "",
   },
   {
     num: "02",
-    title: "Backend Development",
-    description: "Building robust server-side applications and APIs to power your web applications.",
+    title: "Containerization & Orchestration",
+    description:
+      "Building and deploying applications with Docker and Docker Compose, ensuring portability, scalability, and smooth deployments.",
     href: "",
   },
   {
     num: "03",
-    title: "Responsive Design",
-    description: "Ensuring your website looks great and functions seamlessly on all devices.",
+    title: "CI/CD Pipelines",
+    description:
+      "Designing and implementing Continuous Integration and Continuous Deployment workflows using Jenkins, GitLab CI, and GitHub Actions.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
-    description: "Optimizing your website to rank higher in search engine results and attract more visitors.",
+    title: "Cloud & Networking",
+    description:
+      "Hands-on with AWS, GCP, and networking (CCNA). Skilled in setting up cloud-native environments and troubleshooting networks.",
     href: "",
   },
 ];
+
 const Services = () => {
   return (
     <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
@@ -39,23 +45,31 @@ const Services = () => {
           transition={{ delay: 2.4, duration: 0.4, ease: "easeIn" }}
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
         >
-          {
-            services.map((service,index)=>{
-              return <div key={index} className="flex-1 flex flex-col justify-center gap-6 group">
+          {services.map((service, index) => {
+            return (
+              <div
+                key={index}
+                className="flex-1 flex flex-col justify-center gap-6 group"
+              >
                 <div className="w-full flex justify-between items-center">
                   <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
                     {service.num}
                   </div>
-                  <Link href={service.href} className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex items-center justify-center hover:-rotate-45">
-                  <BsArrowDownRight className="text-primary text-3xl"/>
+                  <Link
+                    href={service.href}
+                    className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex items-center justify-center hover:-rotate-45"
+                  >
+                    <BsArrowDownRight className="text-primary text-3xl" />
                   </Link>
                 </div>
-                <h2 className="text-[35px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">{service.title}</h2>
+                <h2 className="text-[35px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
+                  {service.title}
+                </h2>
                 <h2 className="text-white/60">{service.description}</h2>
                 <div className="border-b border-white/20 w-full"></div>
               </div>
-            })
-          }
+            );
+          })}
         </motion.div>
       </div>
     </section>
