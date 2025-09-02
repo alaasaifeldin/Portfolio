@@ -14,9 +14,6 @@ https://portfolio-mahmoud-gado.vercel.app/
 ✅ Contact form integration *(if applicable)*  
 ✅ Dynamic content loading  
 
-## 🖼️ Screenshots
-
-![Portfolio Screenshot](/public/assets/1.PNG)  
 
 ## 🛠️ Run Locally
 
@@ -25,7 +22,7 @@ Follow these steps to set up the project on your local machine:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/MahmoudGado1/Portfolio-
+git clone https://github.com/alaasaifeldin/Portfolio.git
 ```
 
 ```bash
