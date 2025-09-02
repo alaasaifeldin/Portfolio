@@ -8,11 +8,11 @@ const state = [
     text: "Years of Experience",
   },
   {
-    num: 18,
+    num: 4,
     text: "Projects Completed",
   },
   {
-    num: 4,
+    num: 8,
     text: "Technologies Mastered",
   },
   {
@@ -20,6 +20,7 @@ const state = [
     text: "Code Commits",
   },
 ];
+
 const Stats = () => {
   return <section className="pt-4 xl:pt-0 pb-12 xl:pb-0">
     <div className="container mx-auto">

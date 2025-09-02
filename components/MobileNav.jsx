@@ -24,7 +24,7 @@ const MobileNav = () => {
       <SheetContent className="flex flex-col">
         <DialogTitle className="mt-16 mb-12 text-center text-2xl">
           <Link href="/">
-            Mahmoud<span className="text-accent">.</span>
+            Alaa<span className="text-accent">.</span>
           </Link>
         </DialogTitle>
         <nav className="flex flex-col items-center justify-center gap-8">
